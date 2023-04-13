@@ -13,6 +13,7 @@
 		78C76E6B29E8A84C0005D9D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C76E6A29E8A84C0005D9D7 /* Preview Assets.xcassets */; };
 		78C76E7229E8A98F0005D9D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C76E7129E8A98F0005D9D7 /* Extensions.swift */; };
 		78C76E7429E8ACC30005D9D7 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C76E7329E8ACC30005D9D7 /* TransactionModel.swift */; };
+		78C76E7629E8AE730005D9D7 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C76E7529E8AE730005D9D7 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		78C76E6A29E8A84C0005D9D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78C76E7129E8A98F0005D9D7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		78C76E7329E8ACC30005D9D7 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		78C76E7529E8AE730005D9D7 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				78C76E6A29E8A84C0005D9D7 /* Preview Assets.xcassets */,
+				78C76E7529E8AE730005D9D7 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C76E7629E8AE730005D9D7 /* PreviewData.swift in Sources */,
 				78C76E7429E8ACC30005D9D7 /* TransactionModel.swift in Sources */,
 				78C76E6629E8A84A0005D9D7 /* ContentView.swift in Sources */,
 				78C76E7229E8A98F0005D9D7 /* Extensions.swift in Sources */,
