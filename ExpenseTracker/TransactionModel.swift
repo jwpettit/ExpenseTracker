@@ -21,6 +21,16 @@ struct Transaction: Identifiable {
     var isTransfer: Bool
     var isExpense: Bool
     var isEdited: Bool
+    
+    // Date parsing functionality
+    var dateParsed: Date {
+        date.dateParsed()
+    }
+    
+    // Ternary function which displays the amount as negative if its a debit
+    var signedAmount: Double {
+        return type == TransactionType.credit.rawValue ? amount : -amount
+    }
 }
 
 enum TransactionType: String {
