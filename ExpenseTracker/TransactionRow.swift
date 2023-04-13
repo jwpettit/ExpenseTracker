@@ -12,6 +12,13 @@ struct TransactionRow: View {
     
     var body: some View {
         HStack(spacing: 20) {
+            
+            //MARK: Transaction Category Icon
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .fill(Color.icon.opacity(0.3))
+                .frame(width: 44, height: 44)
+            
+            // Text about the transaction oriented vertically
             VStack(alignment: .leading, spacing: 6) {
                 // MARK: Transaction Merchant
                 Text(transaction.merchant)
