@@ -36,6 +36,7 @@
 		78C76E7C29E8B7250005D9D7 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		78C76E7F29E8BFDA0005D9D7 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 		78C76E8129E8C9640005D9D7 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		78C76E8929E8E4A50005D9D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		78C76E5729E8A84A0005D9D7 = {
 			isa = PBXGroup;
 			children = (
+				78C76E8929E8E4A50005D9D7 /* README.md */,
 				78C76E6229E8A84A0005D9D7 /* ExpenseTracker */,
 				78C76E6129E8A84A0005D9D7 /* Products */,
 			);
